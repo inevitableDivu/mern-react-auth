@@ -1,0 +1,13 @@
+#menuBox {
+    right: 20px;
+    margin-top: 20px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.2s linear;
+}
+#menuBox.active {
+    right: 0px;
+    margin-top: 12px;
+    opacity: 1;
+    transform: scale(1);
+}
